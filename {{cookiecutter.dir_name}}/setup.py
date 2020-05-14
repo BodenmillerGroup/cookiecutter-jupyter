@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 setup(
-    name='{{ cookiecutter.package_name }}',
+    name='src',
     version='0.1.0',
     description='{{ cookiecutter.description }}',
     author='{{ cookiecutter.author_name }}',{% if cookiecutter.license != 'None' %}
