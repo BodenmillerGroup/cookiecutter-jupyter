@@ -29,7 +29,11 @@ Jonas Windhager
 
 ## Contributors
 
+* Vito Zanotelli
+
 ## Acknowledgements
+
+* [Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science/)
 
 ## License
 

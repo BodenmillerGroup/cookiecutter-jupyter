@@ -1,3 +1,4 @@
+-e .
 jupytext
 matplotlib
 notebook

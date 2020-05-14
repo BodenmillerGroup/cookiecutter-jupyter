@@ -10,3 +10,5 @@ dependencies:
   - pandas
   - pip
   - python=3
+  - pip:
+    - -e .
