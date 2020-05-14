@@ -1,27 +1,37 @@
-# {{cookiecutter.project_name}}
+# {{ cookiecutter.project_name }}
 
-{{cookiecutter.description}}
+{{ cookiecutter.description }}
+
+## Requirements
+
+See [requirements.txt](requirements.txt)
 
 ## Installation
 
 To create a new conda environment (reproducible, recommended):
-```bash
+```
 conda env create -f environment.yml
 ```
 
 Alternatively, to update an existing environment to the most up-to-date dependency versions:
-```bash
+```
 conda install --file requirements.txt
 ```
 
 ## Usage
+
+Activate the environment and run jupyter notebook:
+```
+conda activate {{ cookiecutter.project_dir_name }}
+jupyter notebook
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Authors
 
-{{cookiecutter.author_name}}
+{{ cookiecutter.author_name }}
 
 ## Contributors
 
