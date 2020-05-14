@@ -1,0 +1,12 @@
+name: {{ cookiecutter.project_dir_name }}
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - jupyter
+  - jupytext
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - python=3
