@@ -31,6 +31,10 @@ Both the requirements.txt file and the environment.yml file are prepopulated wit
 conda env export > environment.yml
 ```
 
+Also, for sharing your analysis environments, consider containerization tools such as Singularity or Docker.
+
+This topic was discussed in more detail in [issue #2](https://github.com/BodenmillerGroup/cookiecutter-jupyter/issues/2).
+
 ### Versioning Jupyter notebooks
 
 By default, Jupyter notebook files ending with `.ipynb` are not versioned. This can be changed anytime by removing the corresponding line from the project's generated [.gitignore file](%7B%7Bcookiecutter.project_dir_name%7D%7D/.gitignore).
