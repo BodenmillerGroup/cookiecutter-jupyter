@@ -2,12 +2,9 @@
 
 The Bodenmiller Lab template for Python data analysis projects
 
-## Installation
+## Requirements
 
-Install [cookiecutter](https://cookiecutter.readthedocs.io):
-```
-conda install -c conda-forge cookiecutter
-```
+[cookiecutter](https://cookiecutter.readthedocs.io)
 
 ## Usage
 
