@@ -1,6 +1,6 @@
 # Python data analysis cookiecutter
 
-The Bodenmiller Lab template for Python data analysis projects using Jupyter notebooks
+Bodenmiller Lab template for Python data analysis projects using Jupyter notebooks
 
 ## Requirements
 
