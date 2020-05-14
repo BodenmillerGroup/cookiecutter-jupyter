@@ -1,6 +1,6 @@
 # Python data analysis cookiecutter
 
-The Bodenmiller Lab template for Python data analysis projects
+The Bodenmiller Lab template for Python data analysis projects using Jupyter notebooks
 
 ## Requirements
 
@@ -10,7 +10,7 @@ The Bodenmiller Lab template for Python data analysis projects
 
 To create a new project from this template:
 ```
-cookiecutter https://github.com/BodenmillerGroup/cookiecutter-python
+cookiecutter https://github.com/BodenmillerGroup/cookiecutter-jupyter
 ```
 
 After project creation, it is recommended to initialize git and add the origin:
