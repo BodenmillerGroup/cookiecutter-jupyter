@@ -2,10 +2,6 @@
 
 {{ cookiecutter.description }}
 
-## Requirements
-
-See [requirements.txt](requirements.txt)
-
 ## Installation
 
 To create a new conda environment (reproducible, recommended):
