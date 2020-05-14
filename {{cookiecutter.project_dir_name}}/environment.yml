@@ -3,12 +3,15 @@ channels:
   - defaults
   - conda-forge
 dependencies:
+  - black
+  - flake8
   - jupyter
   - jupytext
   - matplotlib
   - numpy
   - pandas
   - pip
+  - pytest
   - python=3
   - pip:
     - -e .
