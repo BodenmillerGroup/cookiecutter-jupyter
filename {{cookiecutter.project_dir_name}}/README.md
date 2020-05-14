@@ -33,7 +33,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Acknowledgements
 
-{% if cookiecutter.license != 'No license' %}
+{% if cookiecutter.license != 'None' %}
 ## License
 
 {% if cookiecutter.license == 'GNU GPLv3' %}
