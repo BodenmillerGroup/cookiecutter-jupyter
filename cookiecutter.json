@@ -1,7 +1,6 @@
 {
 	"project_name": "project_name",
-	"dir_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
-	"env_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+	"package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
 	"author_name": "author_name",
 	"description": "description",
 	"license": ["MIT License", "Apache License 2.0", "GNU GPLv3", "None"]

@@ -1,4 +1,4 @@
-name: {{ cookiecutter.env_name }}
+name: {{ cookiecutter.package_name }}
 channels:
   - defaults
   - conda-forge

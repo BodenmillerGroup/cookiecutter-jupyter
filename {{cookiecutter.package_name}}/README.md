@@ -18,7 +18,7 @@ conda install --file requirements.txt
 
 Activate the environment and run jupyter notebook:
 ```
-conda activate {{ cookiecutter.env_name }}
+conda activate {{ cookiecutter.package_name }}
 jupyter notebook
 ```
 
