@@ -20,6 +20,21 @@ git init
 git remote add origin <origin_url>
 ```
 
+### Project requirements
+
+The created project contains both a pip-style requirements.txt file and a conda-style environment.yml file:
+* The [requirements.txt](%7B%7Bcookiecutter.project_dir_name%7D%7D/requirements.txt) file should contain all Python packages required for executing the code in the project repository. This file allows the user to install the most recent version of all packages and should therefore not be version-pinned, unless specific package versions are required.
+* The [environment.yml](%7B%7Bcookiecutter.project_dir_name%7D%7D/environment.yml) file should contain a conda environment for which the correct execution of the code in the project is guaranteed, including binary packages and the Python runtime. This file allows the user to reproduce the analysis results for which the project was created and should therefore be version-pinned.
+
+Both the requirements.txt file and the environment.yml file are prepopulated with essential dependencies. Initially, the environment.yml file is not version-pinned, to allow for the creation of a fresh conda environment after project initialization. Following conda environment creation, this file should be replaced by an all-pinned environment file as follows: 
+```
+conda env export > environment.yml
+```
+
+Also, for sharing your analysis environments, consider containerization tools such as Singularity or Docker.
+
+This topic was discussed in more detail in [issue #2](https://github.com/BodenmillerGroup/cookiecutter-jupyter/issues/2).
+
 ### Versioning Jupyter notebooks
 
 By default, Jupyter notebook files ending with `.ipynb` are not versioned. This can be changed anytime by removing the corresponding line from the project's generated [.gitignore file](%7B%7Bcookiecutter.package_name%7D%7D/.gitignore).
